@@ -8,3 +8,5 @@ Swift Langugage Version: Swift 5
 
 Architectural Pattern: MVVM
 
+OSX: Sonoma 14.5
+
