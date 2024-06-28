@@ -12,16 +12,6 @@
 		325B247E2C2AB5B200583AD9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325B247D2C2AB5B200583AD9 /* Constants.swift */; };
 		325B24802C2AF4FD00583AD9 /* ValidationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325B247F2C2AF4FD00583AD9 /* ValidationHelper.swift */; };
 		325B24832C2BE9E800583AD9 /* ToDo.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 325B24822C2BE9E800583AD9 /* ToDo.xctestplan */; };
-		325B24892C2C1C5100583AD9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325B24882C2C1C5100583AD9 /* Home.swift */; };
-		325B248B2C2C201900583AD9 /* ToDoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325B248A2C2C201900583AD9 /* ToDoCollectionViewCell.swift */; };
-		325B248D2C2C210000583AD9 /* ToDoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 325B248C2C2C210000583AD9 /* ToDoCollectionViewCell.xib */; };
-		325B24CF2C2C348C00583AD9 /* RegularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325B24CE2C2C348B00583AD9 /* RegularCollectionViewCell.swift */; };
-		325B24D12C2C353500583AD9 /* RegularCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 325B24D02C2C353400583AD9 /* RegularCollectionViewCell.xib */; };
-		325B24D32C2C3C5800583AD9 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325B24D22C2C3C5800583AD9 /* CustomHeaderView.swift */; };
-		325B24D52C2C3D0800583AD9 /* CustomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 325B24D42C2C3D0800583AD9 /* CustomHeaderView.xib */; };
-		325B24D72C2C4C4000583AD9 /* CompleteCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 325B24D62C2C4C4000583AD9 /* CompleteCollectionCell.xib */; };
-		325B24D92C2C4CB300583AD9 /* CompleteCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325B24D82C2C4CB300583AD9 /* CompleteCollectionCell.swift */; };
-		325B24DC2C2D3C1100583AD9 /* Home+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325B24DB2C2D3C1100583AD9 /* Home+Extension.swift */; };
 		32ED37B52C294EC600F4E87D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ED37B42C294EC600F4E87D /* AppDelegate.swift */; };
 		32ED37B72C294EC600F4E87D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ED37B62C294EC600F4E87D /* SceneDelegate.swift */; };
 		32ED37B92C294EC600F4E87D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ED37B82C294EC600F4E87D /* ViewController.swift */; };
@@ -62,16 +52,6 @@
 		325B247D2C2AB5B200583AD9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		325B247F2C2AF4FD00583AD9 /* ValidationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationHelper.swift; sourceTree = "<group>"; };
 		325B24822C2BE9E800583AD9 /* ToDo.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ToDo.xctestplan; sourceTree = "<group>"; };
-		325B24882C2C1C5100583AD9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		325B248A2C2C201900583AD9 /* ToDoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCollectionViewCell.swift; sourceTree = "<group>"; };
-		325B248C2C2C210000583AD9 /* ToDoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoCollectionViewCell.xib; sourceTree = "<group>"; };
-		325B24CE2C2C348B00583AD9 /* RegularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularCollectionViewCell.swift; sourceTree = "<group>"; };
-		325B24D02C2C353400583AD9 /* RegularCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegularCollectionViewCell.xib; sourceTree = "<group>"; };
-		325B24D22C2C3C5800583AD9 /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
-		325B24D42C2C3D0800583AD9 /* CustomHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomHeaderView.xib; sourceTree = "<group>"; };
-		325B24D62C2C4C4000583AD9 /* CompleteCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompleteCollectionCell.xib; sourceTree = "<group>"; };
-		325B24D82C2C4CB300583AD9 /* CompleteCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteCollectionCell.swift; sourceTree = "<group>"; };
-		325B24DB2C2D3C1100583AD9 /* Home+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+Extension.swift"; sourceTree = "<group>"; };
 		32ED37B12C294EC600F4E87D /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32ED37B42C294EC600F4E87D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32ED37B62C294EC600F4E87D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,21 +98,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		325B24DA2C2C6C6B00583AD9 /* CollectionCell */ = {
-			isa = PBXGroup;
-			children = (
-				325B248A2C2C201900583AD9 /* ToDoCollectionViewCell.swift */,
-				325B248C2C2C210000583AD9 /* ToDoCollectionViewCell.xib */,
-				325B24CE2C2C348B00583AD9 /* RegularCollectionViewCell.swift */,
-				325B24D02C2C353400583AD9 /* RegularCollectionViewCell.xib */,
-				325B24D22C2C3C5800583AD9 /* CustomHeaderView.swift */,
-				325B24D42C2C3D0800583AD9 /* CustomHeaderView.xib */,
-				325B24D62C2C4C4000583AD9 /* CompleteCollectionCell.xib */,
-				325B24D82C2C4CB300583AD9 /* CompleteCollectionCell.swift */,
-			);
-			name = CollectionCell;
-			sourceTree = "<group>";
-		};
 		32ED37A82C294EC600F4E87D = {
 			isa = PBXGroup;
 			children = (
@@ -192,12 +157,9 @@
 		32ED37E42C2973E300F4E87D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				325B24DA2C2C6C6B00583AD9 /* CollectionCell */,
 				32ED37E92C2977FC00F4E87D /* tableviewcell */,
 				32ED37B82C294EC600F4E87D /* ViewController.swift */,
 				32ED37F12C298E8000F4E87D /* AddToDoViewController.swift */,
-				325B24882C2C1C5100583AD9 /* Home.swift */,
-				325B24DB2C2D3C1100583AD9 /* Home+Extension.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -342,12 +304,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				325B248D2C2C210000583AD9 /* ToDoCollectionViewCell.xib in Resources */,
 				32ED37BE2C294EC800F4E87D /* Assets.xcassets in Resources */,
-				325B24D12C2C353500583AD9 /* RegularCollectionViewCell.xib in Resources */,
 				325B24832C2BE9E800583AD9 /* ToDo.xctestplan in Resources */,
-				325B24D72C2C4C4000583AD9 /* CompleteCollectionCell.xib in Resources */,
-				325B24D52C2C3D0800583AD9 /* CustomHeaderView.xib in Resources */,
 				32ED37C12C294EC800F4E87D /* Base in Resources */,
 				32ED37BC2C294EC600F4E87D /* Base in Resources */,
 				32ED37F02C297AD900F4E87D /* ToDoCell.xib in Resources */,
@@ -375,22 +333,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				325B24DC2C2D3C1100583AD9 /* Home+Extension.swift in Sources */,
-				325B24D32C2C3C5800583AD9 /* CustomHeaderView.swift in Sources */,
 				32ED37F42C29AD8600F4E87D /* ToDoViewModel.swift in Sources */,
 				325B247E2C2AB5B200583AD9 /* Constants.swift in Sources */,
-				325B24CF2C2C348C00583AD9 /* RegularCollectionViewCell.swift in Sources */,
 				32ED37B92C294EC600F4E87D /* ViewController.swift in Sources */,
 				32ED37EE2C297A0300F4E87D /* Helpers.swift in Sources */,
 				325B24802C2AF4FD00583AD9 /* ValidationHelper.swift in Sources */,
 				32ED37E82C29741400F4E87D /* ToDoModel.swift in Sources */,
-				325B24892C2C1C5100583AD9 /* Home.swift in Sources */,
 				325B247A2C2A985C00583AD9 /* ToDo.xcdatamodeld in Sources */,
 				32ED37B52C294EC600F4E87D /* AppDelegate.swift in Sources */,
 				325B247C2C2A9A9200583AD9 /* DatabaseHelper.swift in Sources */,
-				325B248B2C2C201900583AD9 /* ToDoCollectionViewCell.swift in Sources */,
 				32ED37F22C298E8000F4E87D /* AddToDoViewController.swift in Sources */,
-				325B24D92C2C4CB300583AD9 /* CompleteCollectionCell.swift in Sources */,
 				32ED37B72C294EC600F4E87D /* SceneDelegate.swift in Sources */,
 				32ED37EB2C29781500F4E87D /* ToDoCell.swift in Sources */,
 			);
