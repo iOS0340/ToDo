@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RegularCollectionCell" id="Kts-vM-OJV" customClass="RegularCollectionViewCell" customModule="ToDo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="271" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="yUF-54-m0U">
+                <rect key="frame" x="0.0" y="0.0" width="271" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sam's Project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpG-a6-hgl">
+                        <rect key="frame" x="16" y="10" width="239" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="ZLK-dI-BYe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" systemColor="systemGray2Color"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create two ad banners" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTJ-bQ-llp">
+                        <rect key="frame" x="16" y="37" width="239" height="26"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLC-nf-qbz">
+                        <rect key="frame" x="16" y="73" width="239" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="RaO-NP-emY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" systemColor="systemGray2Color"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="gpG-a6-hgl" firstAttribute="top" secondItem="yUF-54-m0U" secondAttribute="top" constant="10" id="07s-to-Faq"/>
+                    <constraint firstItem="PLC-nf-qbz" firstAttribute="leading" secondItem="yUF-54-m0U" secondAttribute="leading" constant="16" id="Jbz-9B-XyQ"/>
+                    <constraint firstAttribute="trailing" secondItem="PLC-nf-qbz" secondAttribute="trailing" constant="16" id="PNz-SR-urM"/>
+                    <constraint firstItem="gpG-a6-hgl" firstAttribute="leading" secondItem="yUF-54-m0U" secondAttribute="leading" constant="16" id="U7e-Gp-sUC"/>
+                    <constraint firstItem="DTJ-bQ-llp" firstAttribute="leading" secondItem="yUF-54-m0U" secondAttribute="leading" constant="16" id="dER-u0-HeO"/>
+                    <constraint firstAttribute="bottom" secondItem="PLC-nf-qbz" secondAttribute="bottom" constant="10" id="gm7-eM-kAJ"/>
+                    <constraint firstItem="PLC-nf-qbz" firstAttribute="top" secondItem="DTJ-bQ-llp" secondAttribute="bottom" constant="10" id="gpJ-io-K5N"/>
+                    <constraint firstAttribute="trailing" secondItem="DTJ-bQ-llp" secondAttribute="trailing" constant="16" id="hSY-Cx-1II"/>
+                    <constraint firstAttribute="trailing" secondItem="gpG-a6-hgl" secondAttribute="trailing" constant="16" id="q8b-oy-oHV"/>
+                    <constraint firstItem="DTJ-bQ-llp" firstAttribute="top" secondItem="gpG-a6-hgl" secondAttribute="bottom" constant="10" id="xB0-MU-bUp"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="271" height="100"/>
+            <connections>
+                <outlet property="lblCategory" destination="gpG-a6-hgl" id="3Zd-12-NQy"/>
+                <outlet property="lblDate" destination="PLC-nf-qbz" id="37n-W6-7qX"/>
+                <outlet property="lblTitle" destination="DTJ-bQ-llp" id="cIS-74-MxB"/>
+            </connections>
+            <point key="canvasLocation" x="141.22137404580153" y="67.605633802816911"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CompleteCollectionCell" id="1V0-0u-IuM" customClass="CompleteCollectionCell" customModule="ToDo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="308" height="127"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="OXi-yV-PFP">
+                <rect key="frame" x="0.0" y="0.0" width="308" height="127"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Completed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ShL-nW-Kwk">
+                        <rect key="frame" x="16" y="24" width="66.333333333333329" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="oiP-rU-q5S"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="0.78430256622516548" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2/10 Tasks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ba-2i-HTd">
+                        <rect key="frame" x="16" y="82" width="127" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="127" id="0rP-eK-WPb"/>
+                            <constraint firstAttribute="height" constant="21" id="9qR-L1-0cg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="completed" translatesAutoresizingMaskIntoConstraints="NO" id="dLY-Na-a0O">
+                        <rect key="frame" x="159" y="0.0" width="133" height="127"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.37254901959999998" green="0.20000000000000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="ShL-nW-Kwk" firstAttribute="leading" secondItem="OXi-yV-PFP" secondAttribute="leading" constant="16" id="6dy-F0-7TJ"/>
+                    <constraint firstItem="dLY-Na-a0O" firstAttribute="width" secondItem="OXi-yV-PFP" secondAttribute="width" multiplier="0.431818" id="ExW-Rf-eNM"/>
+                    <constraint firstAttribute="trailing" secondItem="dLY-Na-a0O" secondAttribute="trailing" constant="16" id="Jxx-BX-OZS"/>
+                    <constraint firstItem="dLY-Na-a0O" firstAttribute="top" secondItem="OXi-yV-PFP" secondAttribute="top" id="aad-xl-zNM"/>
+                    <constraint firstItem="1Ba-2i-HTd" firstAttribute="leading" secondItem="ShL-nW-Kwk" secondAttribute="leading" id="eV0-e0-0hE"/>
+                    <constraint firstAttribute="bottom" secondItem="1Ba-2i-HTd" secondAttribute="bottom" constant="24" id="nQT-nN-qSR"/>
+                    <constraint firstItem="dLY-Na-a0O" firstAttribute="height" secondItem="OXi-yV-PFP" secondAttribute="height" id="nd4-hn-OBf"/>
+                    <constraint firstItem="ShL-nW-Kwk" firstAttribute="top" secondItem="OXi-yV-PFP" secondAttribute="top" constant="24" id="tfL-RN-7H0"/>
+                    <constraint firstAttribute="bottom" secondItem="dLY-Na-a0O" secondAttribute="bottom" id="wSq-Sa-RdU"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <color key="backgroundColor" red="0.37254901960784315" green="0.20000000000000001" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <size key="customSize" width="308" height="127"/>
+            <point key="canvasLocation" x="229.00763358778624" y="-7.394366197183099"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="completed" width="2000" height="2000"/>
+    </resources>
+</document>
